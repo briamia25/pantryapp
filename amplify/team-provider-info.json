@@ -1,0 +1,84 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pantryapp3-dev-4f1ec-authRole",
+      "UnauthRoleArn": "arn:aws:iam::724772090394:role/amplify-pantryapp3-dev-4f1ec-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::724772090394:role/amplify-pantryapp3-dev-4f1ec-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-pantryapp3-dev-4f1ec-deployment",
+      "UnauthRoleName": "amplify-pantryapp3-dev-4f1ec-unauthRole",
+      "StackName": "amplify-pantryapp3-dev-4f1ec",
+      "StackId": "arn:aws:cloudformation:us-east-2:724772090394:stack/amplify-pantryapp3-dev-4f1ec/8c258680-47a9-11f0-aeb3-0277a5c7e6e5",
+      "AmplifyAppId": "d5s8p4jcg4dd8"
+    },
+    "categories": {
+      "auth": {
+        "pantryapp3b23cb3bb": {}
+      },
+      "api": {
+        "pantryapp3": {}
+      },
+      "storage": {
+        "s3748c3aa5": {}
+      }
+    }
+  },
+  "pantryapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pantryapp3-pantryapp-25315-authRole",
+      "UnauthRoleArn": "arn:aws:iam::529001462053:role/amplify-pantryapp3-pantryapp-25315-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::529001462053:role/amplify-pantryapp3-pantryapp-25315-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pantryapp3-pantryapp-25315-deployment",
+      "UnauthRoleName": "amplify-pantryapp3-pantryapp-25315-unauthRole",
+      "StackName": "amplify-pantryapp3-pantryapp-25315",
+      "StackId": "arn:aws:cloudformation:us-east-1:529001462053:stack/amplify-pantryapp3-pantryapp-25315/6f389a40-586f-11f0-a264-1273a7e0cb75",
+      "AmplifyAppId": "d803zqbeeh9m8"
+    },
+    "categories": {
+      "auth": {
+        "pantryapp3b23cb3bb": {}
+      },
+      "function": {
+        "AdminQueries716da488": {},
+        "pantryapp3b23cb3bb": {}
+      }
+    }
+  },
+  "pantryap": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pantryapp3-pantryap-36060-authRole",
+      "UnauthRoleArn": "arn:aws:iam::529001462053:role/amplify-pantryapp3-pantryap-36060-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::529001462053:role/amplify-pantryapp3-pantryap-36060-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pantryapp3-pantryap-36060-deployment",
+      "UnauthRoleName": "amplify-pantryapp3-pantryap-36060-unauthRole",
+      "StackName": "amplify-pantryapp3-pantryap-36060",
+      "StackId": "arn:aws:cloudformation:us-east-1:529001462053:stack/amplify-pantryapp3-pantryap-36060/03458690-5888-11f0-b24a-0e97207a46eb",
+      "AmplifyAppId": "d803zqbeeh9m8"
+    },
+    "categories": {
+      "auth": {
+        "pantryapp3b23cb3bb": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueries716da488": {
+          "deploymentBucketName": "amplify-pantryapp3-pantryap-36060-deployment",
+          "s3Key": "amplify-builds/AdminQueries716da488-56574350447836772b4e-build.zip"
+        },
+        "pantryapp3b23cb3bb": {}
+      },
+      "api": {
+        "AdminQueries": {},
+        "pantryapp3": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      },
+      "storage": {
+        "s3748c3aa5": {}
+      }
+    }
+  }
+}

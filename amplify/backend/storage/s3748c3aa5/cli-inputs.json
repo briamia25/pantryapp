@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3748c3aa5",
+  "policyUUID": "748c3aa5",
+  "bucketName": "pantryapp3d9953cb857974877951af58fc1550380",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

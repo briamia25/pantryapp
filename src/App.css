@@ -1,0 +1,138 @@
+
+/* src/App.css */
+
+/* Basic Global Styles */
+* {
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width/height */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App { /* This class is on your outermost div in App.js */
+  min-height: 100vh; /* Ensure App takes full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack navbar and content vertically */
+  width: 100vw;
+  /* Remove overflow: hidden; unless absolutely necessary as it can hide content */
+  /* margin and padding are usually handled by body, but fine here */
+}
+
+
+/* --- NAVBAR STYLES --- */
+.navbar {
+  display: flex; /* Makes the Link items arrange horizontally */
+  justify-content: space-around; /* Distributes space evenly between items, with half-space at ends */
+  /* If you prefer fixed gap: gap: 25px; */
+
+  align-items: center; /* Vertically aligns items in the center */
+
+  background-color: #333; /* Dark background for the nav bar */
+  padding: 1rem 2rem; /* Vertical (1rem) and horizontal (2rem) padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  z-index: 1000; /* Ensure navbar stays on top if anything overlaps */
+}
+
+.navbar a {
+  color: white; /* White text for the links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.1rem; /* Make link text a bit larger */
+  font-weight: bold; /* Make links bold */
+  padding: 0.5rem 0.8rem; /* Add some padding around each link for clickability */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  color: #add8e6; /* Light blue on hover (example) */
+}
+
+
+/* --- HOME PAGE CENTERING STYLES --- */
+.home-container { /* Targeting the div in Home.js */
+  flex-grow: 1; /* Allows this container to take up all available vertical space */
+  display: flex;
+  flex-direction: column; /* Stack children (h1 and img) vertically */
+  align-items: center; /* Horizontally centers children within the flex container */
+  justify-content: center; /* Vertically centers children within this container */
+
+  padding: 20px; /* Add some overall padding */
+  text-align: center; /* Fallback for text, though align-items handles h1 */
+  background-color: #f9f9f9; /* A light background for the home content area */
+}
+
+.home-container h1 {
+    margin-bottom: 2rem; /* Space between the title and the image */
+    color: #333; /* Example: make title slightly darker */
+    font-size: 2.5rem; /* Example: make title larger */
+}
+
+.intro-image {
+  max-width: 80%; /* Make image responsive, max 80% of container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+}
+
+/* --- OTHER PRE-EXISTING APP.CSS RULES (ensure these are present if you use them) --- */
+
+/* Remove .home-image if not used */
+/*
+.home-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/
+
+/* Remove .app-container if not used */
+/*
+.app-container {
+  text-align: center;
+}
+*/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header { /* If this is used for some other page/component */
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
