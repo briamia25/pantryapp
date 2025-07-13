@@ -74,7 +74,11 @@
         "pantryapp3": {}
       },
       "hosting": {
-        "S3AndCloudFront": {}
+        "S3AndCloudFront": {},
+        "amplifyhosting": {
+          "appId": "d803zqbeeh9m8",
+          "type": "cicd"
+        }
       },
       "storage": {
         "s3748c3aa5": {}

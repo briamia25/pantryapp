@@ -118,6 +118,10 @@
     "S3AndCloudFront": {
       "providerPlugin": "awscloudformation",
       "service": "S3AndCloudFront"
+    },
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
     }
   },
   "parameters": {
@@ -134,6 +138,22 @@
         {
           "category": "function",
           "resourceName": "AdminQueries716da488"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
         }
       ]
     }
